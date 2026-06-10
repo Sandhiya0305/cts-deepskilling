@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Document AWS VPC configuration. Create VPC with CIDR block (10.0.0.0/16). Create subnets: Public Subnet (10.0.1.0/24 with route to Internet Gateway) and Private Subnet (10.0.2.0/24 with route to NAT Gateway). Configure Route Tables: public route table with route 0.0.0.0/0 to IGW, private route table with route 0.0.0.0/0 to NAT Gateway. Create Internet Gateway and attach to VPC. Create NAT Gateway in public subnet for outbound internet from private instances. Configure Security Groups (instance-level firewall) and NACLs (subnet-level). Show VPC peering for connecting two VPCs.

@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Create a PL/SQL package with both specification and body. The package should contain: a function getEmployeeCount that returns total employees, a procedure hireEmployee that inserts a new employee with validation, a procedure fireEmployee that marks an employee as inactive, and a private variable maxSalaryLimit that is only accessible within the package body. Show the benefit of encapsulation: the package body can be modified without changing the specification, and private variables are hidden from external access. Demonstrate calling package members from an anonymous block.

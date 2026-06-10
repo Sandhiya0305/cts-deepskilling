@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Create a Java class demonstrating SLF4J logging framework. Include: importing org.slf4j.Logger and LoggerFactory, creating a logger instance, logging at all levels (TRACE, DEBUG, INFO, WARN, ERROR). Show parameterized logging to avoid string concatenation: logger.info("User {} logged in at {}", username, timestamp). Include a try-catch block where exceptions are logged with stack trace using logger.error("Error processing", exception). Create a logback.xml configuration file defining console appender (stdout) and file appender (logs/app.log) with different log levels and patterns.

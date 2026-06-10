@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Create a service layer for Employee CRUD operations. Autowire EmployeeRepository. Methods: createEmployee(EmployeeDTO dto) with validation and duplicate email check, getAllEmployees() returning List&lt;EmployeeDTO&gt;, getEmployeeById(Long id) returning EmployeeDTO or throwing ResourceNotFoundException, updateEmployee(Long id, EmployeeDTO dto) with merge logic for partial updates, deleteEmployee(Long id) performing soft delete (set active=false) or hard delete. Annotate class with @Transactional. Include proper exception handling with custom exceptions and @ControllerAdvice.

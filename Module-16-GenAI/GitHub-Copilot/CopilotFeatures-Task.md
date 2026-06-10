@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Document GitHub Copilot core features. Code completion: auto-complete lines, full function generation from comments. Chat interface: ask questions about code, request explanations, generate documentation. Test generation: write test cases from function signatures. Refactoring: select code and ask Copilot to improve it (optimize, simplify, add error handling). Comment generation: generate docstrings and inline comments. Multi-file awareness: Copilot considers context from open files. Include tips: write clear function names, add type hints, break complex tasks into smaller functions for better suggestions.

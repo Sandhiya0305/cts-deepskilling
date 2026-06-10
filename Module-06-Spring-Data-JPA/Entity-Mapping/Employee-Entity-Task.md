@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Create a JPA entity class Employee with proper annotations. Use @Entity, @Table(name=""employees""). Fields: id (@Id, @GeneratedValue(strategy=GenerationType.IDENTITY)), name (@Column(nullable=false, length=100)), email (@Column(unique=true), @Email validation), salary (@Column(precision=10, scale=2), @Min(0)), department (@ManyToOne with @JoinColumn), joinDate (@Temporal(TemporalType.DATE), @Past), active (@Column(columnDefinition=""boolean default true"")). Add @CreatedDate and @LastModifiedDate with @EntityListeners(AuditingEntityListener.class). Show proper entity lifecycle annotations.

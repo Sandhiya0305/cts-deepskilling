@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Document prompt engineering techniques with coding examples. Zero-shot prompting: direct instruction without examples (""Write a Java method to reverse a string""). Few-shot prompting: provide 2-3 examples then ask for completion. Chain-of-thought prompting: ask model to reason step by step (""Solve step by step: what is the time complexity of this algorithm?""). Role prompting: ""Act as a senior Java developer reviewing this code."" Best practices: be specific, provide context, specify output format, iterate and refine. Include examples of bad prompts vs good prompts for the same task.

@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Document cloud computing fundamentals. Service models: IaaS (Infrastructure - EC2, VMs, networking), PaaS (Platform - RDS, Elastic Beanstalk, Heroku), SaaS (Software - Gmail, Salesforce, Office 365). Deployment models: Public (AWS, Azure, GCP), Private (on-premises cloud), Hybrid (combination), Community (shared by organizations). Cloud vs On-Premises comparison: upfront cost, scalability, maintenance, security control, disaster recovery. List major providers: AWS (market leader), Azure (enterprise integration), GCP (data analytics). Include use case scenarios for each service model.

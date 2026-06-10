@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Write comprehensive JUnit 5 tests for a Calculator class. The Calculator should have methods: add(int a, int b), subtract(int a, int b), multiply(int a, int b), divide(int a, int b). Write tests using: @BeforeEach for setup (initialize Calculator instance), @Test with @DisplayName for readable names, assertEquals for normal cases, assertThrows(ArithmeticException.class, ...) for division by zero, assertTrue/assertFalse where appropriate. Follow the AAA pattern: Arrange (setup inputs), Act (call method), Assert (verify result). Include parameterized tests using @ParameterizedTest with @ValueSource or @CsvSource for multiple test cases.

@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Document Generative AI fundamentals. Definition: AI that creates new content (text, code, images, audio) rather than just classifying. Evolution: early chatbots (1960s ELIZA) → rule-based systems → machine learning → deep learning → GANs (2014) → Transformers (2017) → GPT-3 (2020) → ChatGPT (2022) → multimodal models (GPT-4, Gemini). Difference from discriminative AI: generative models learn P(X) vs discriminative models learn P(Y|X). Applications: code completion (GitHub Copilot), text generation (ChatGPT), image creation (DALL-E), music generation. Include ethical considerations: bias, misinformation, copyright.

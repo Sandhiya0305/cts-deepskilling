@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Document the Scrum framework comprehensively. Roles: Scrum Master (facilitator, removes impediments), Product Owner (prioritizes backlog, represents stakeholders), Development Team (cross-functional, self-organizing). Ceremonies: Sprint Planning (what to deliver, how to do it), Daily Scrum (15-min sync, 3 questions), Sprint Review (demo to stakeholders), Sprint Retrospective (what went well, what to improve). Artifacts: Product Backlog (prioritized features), Sprint Backlog (committed work), Increment (working software). Definition of Done checklist. Include sprint duration recommendations (1-4 weeks).

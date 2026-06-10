@@ -1,0 +1,3 @@
+﻿# Task Description
+
+Create a Spring Data JPA repository extending JpaRepository&lt;Employee, Long&gt;. Define derived query methods: findByNameContainingIgnoreCase(String name), findBySalaryGreaterThanEqual(Double minSalary), findByDepartmentName(String deptName), findByJoinDateBetween(LocalDate start, LocalDate end). Add custom @Query with JPQL: @Query(""SELECT e FROM Employee e WHERE e.salary &gt; (SELECT AVG(e2.salary) FROM Employee e2)"") for above-average earners. Use @Param for named parameters. Create a projection interface EmployeeNameSalary with getName() and getSalary() methods for selective data fetching.
