@@ -1,3 +1,0 @@
-﻿# Task Description
-
-Create a Spring application using annotation-based configuration and component scanning. Annotate classes: @Component for generic beans, @Service for business logic, @Repository for data access, @Controller for web layer. Use @Autowired for dependency injection (prefer constructor injection). Demonstrate @Qualifier(""beanName"") when multiple beans of the same type exist. Use @Value(""${property.name}"") to inject values from application.properties. Create @Profile(""dev"") and @Profile(""prod"") beans to show environment-specific configuration. Use @ComponentScan(basePackages = ""com.example"") to enable auto-discovery.
