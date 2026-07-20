@@ -1,0 +1,19 @@
+Task 3: Branching and merging
+
+Description:
+Create a branch, make changes in the branch, merge it back to master, and delete the branch after merging.
+
+Commands:
+git checkout -b GitNewBranch
+git branch -a
+git checkout GitNewBranch
+echo branch work > branch.txt
+git add branch.txt
+git commit -m "Add branch work"
+git status
+git checkout master
+git diff master GitNewBranch
+git mergetool
+git merge GitNewBranch
+git log --oneline --graph --decorate
+git branch -d GitNewBranch

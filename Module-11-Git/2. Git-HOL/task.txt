@@ -1,0 +1,17 @@
+Task 2: Git ignore
+
+Description:
+Create a .log file and a log folder in the working directory, then configure .gitignore so they are ignored by Git.
+
+Commands:
+mkdir GitIgnoreDemo
+cd GitIgnoreDemo
+git init
+echo sample log > app.log
+mkdir log
+echo *.log > .gitignore
+echo log/ >> .gitignore
+type .gitignore
+git status
+git add .gitignore
+git commit -m "Add gitignore rules"

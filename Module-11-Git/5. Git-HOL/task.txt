@@ -1,0 +1,10 @@
+Task 5: Clean up and push back to remote Git
+
+Description:
+Verify a clean master, inspect branches, pull the remote repository, and push pending changes back to remote Git.
+
+Commands:
+git status
+git branch -a
+git pull origin master
+git push origin master

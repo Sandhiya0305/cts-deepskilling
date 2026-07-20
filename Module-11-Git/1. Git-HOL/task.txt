@@ -1,0 +1,19 @@
+Task 1: Git setup and first commit
+
+Description:
+Set up Git configuration, integrate Notepad++ as the default editor, create a local repository, add a file, commit it, and push/pull with the remote GitLab repository.
+
+Commands:
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global core.editor "notepad++"
+git init GitDemo
+cd GitDemo
+echo welcome to git > welcome.txt
+type welcome.txt
+git status
+git add welcome.txt
+git commit -m "Add welcome.txt"
+git pull origin master
+git push origin master

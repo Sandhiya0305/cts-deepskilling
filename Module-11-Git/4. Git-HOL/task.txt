@@ -1,0 +1,28 @@
+Task 4: Merge conflict resolution
+
+Description:
+Create conflicting changes on master and a branch, resolve the conflict, commit the result, and clean up the branch.
+
+Commands:
+git status
+git checkout -b GitWork
+type nul > hello.xml
+echo branch content > hello.xml
+git add hello.xml
+git commit -m "Add hello.xml on branch"
+git checkout master
+echo master content > hello.xml
+git add hello.xml
+git commit -m "Add hello.xml on master"
+git log --oneline --graph --decorate --all
+git diff master GitWork
+git mergetool
+git merge GitWork
+git add hello.xml
+git commit -m "Resolve merge conflict"
+git status
+echo *.bak >> .gitignore
+git add .gitignore
+git commit -m "Ignore backup files"
+git branch -d GitWork
+git log --oneline --graph --decorate
